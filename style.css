@@ -1,0 +1,15 @@
+*{
+
+}
+body{
+  margin: 0;
+	padding: 0;
+	color: #554a46;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+	background-color: #090100;
+	background-image: url(../images/tooplate_body.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+}
