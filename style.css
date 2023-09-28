@@ -4,14 +4,53 @@
   box-sizing: border-box;
 }
 body{
+  width:100vw;
+  height: 100vh;
   margin: 0;
 	padding: 0;
 	color: #554a46;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: Tahoma, sans-serif;
 	font-size: 13px;
 	line-height: 1.7em; 
 	background-color: #090100;
 	background-image: url(../images/tooplate_body.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
+}
+.Box{
+  width:80vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 7.5rem;
+}
+.section-1{
+  width:80vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: aqua;
+  padding: 2rem;
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30vh;
+  height: auto;
+}
+.navigate{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50vh;
+  height: auto;
 }
